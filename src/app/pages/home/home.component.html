@@ -1,0 +1,28 @@
+<main>
+    <div class="intro">
+        <div class="information">
+            <h2 class="wow fadeInUp">Donde te sientas cómodo</h2>
+            <p>Bienvenido al gimnasion y cambia tu vida</p>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="wow bounceIn">Clases</h2>
+        <div class="cards">
+            <div class="card wow fadeInUp" *ngFor="let clase of _info.info;">
+                <img [src]="clase.url" alt={{clase.titulo}}>
+                <div class="text">
+                    <h3>{{clase.titulo}}</h3>
+                    <div class="textP">
+                        <p><span>{{clase.semana}}</span> {{clase.semanaHora}}</p>
+                    <p><span>{{clase.finSemana}}</span>{{clase.finSemanaHora}}</p>
+                    <p>{{clase.contenido}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="imagenFondo">
+        <h2 class="tituloBanner">Acerca del gimnasio</h2>
+        <p class="textoBanner">Ofrecemos una comunidad sin pretensiones y orientada a lograr resultados, que se centra en tus objetivos y éxito. ¡Deja tu ego en la puerta y prepárate para sudar!</p>
+    </div>
+</main>

@@ -1,0 +1,33 @@
+<header>
+    <section class="header container">
+
+        <div class="headerHome">
+            <a routerLink="home">FitnessClub</a>
+        </div>
+        <div class="textEnd ">
+            <div class="menu_icon" [class.menu_icon_Class]="menu_icon_variable" (click)="openMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            <div class="menu" [class.menuClass]="menuVariable">
+
+                <ul>
+                    <li >
+                        <a routerLink="home" >Inicio </a>
+                    </li>
+                    <li >
+                        <a routerLink="about" >Acerca de </a>
+                    </li>
+                    <li >
+                        <a routerLink="contact">Contacto</a>
+                    </li>
+                    <li class="menuButton">
+                        <a routerLink="join" >Únete ahora</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+</header>

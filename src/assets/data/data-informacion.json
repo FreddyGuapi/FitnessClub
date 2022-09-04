@@ -1,0 +1,57 @@
+[
+  {
+    "url": "../../../assets/img/img2.jpg",
+    "titulo": "Levanta Tu Peso I",
+    "semana": "Lun., Jue",
+    "semanaHora": "de 12am a 2pm",
+    "finSemana": "Sab",
+    "finSemanaHora": "de 11am a 12pm",
+    "contenido": "Al combinar cuerdas de batalla, poleas y trepar a la cuerda, la clase de nivel principiante te ayudará a desarrollar músculos, ganar resistencia y poner tu metabolismo en marcha."
+  },
+  {
+    "url": "../../../assets/img/img4.jpg",
+    "titulo": "Curso de obstáculos en la ciudad I",
+    "semana": "Mar., Jue.",
+    "semanaHora": "de 5 pm a 6 pm",
+    "finSemana": "Sab",
+    "finSemanaHora": "de 9 am a 10 am",
+    "contenido": "Aquí combinamos pesas libres con sentadillas, estocadas y ejercicios por intervalos de alta intensidad para que puedas ganar fuerza según tu propio tipo corporal y tus metas."
+  },
+  {
+    "url": "../../../assets/img/img5.jpg",
+    "titulo": "Circuito de Fuerza y Cardio",
+    "semana": "Lun., mié., vie.",
+    "semanaHora": "de 5pm a 6pm",
+    "finSemana": "Sab",
+    "finSemanaHora": "de 1pm a 1:45 pm.",
+    "contenido": "Bienvenido al entrenamiento perfecto para la hora del almuerzo. Durante esta clase corta, hacemos una serie de movimientos de entrenamiento cruzado con ráfagas de ejercicios aeróbicos, levantamiento de pesas y estiramientos."
+  },
+  {
+    "url": "../../../assets/img/img6.jpg",
+    "titulo": "Levanta Tu Peso II",
+    "semana": "Mar., Vie.",
+    "semanaHora": "de 8 am a 9 am.",
+    "finSemana": "Dom.",
+    "finSemanaHora": "de 10 am a 11 am.",
+    "contenido": "Aquí incorporamos intervalos de cardio entre ejercicios con la cuerda para ayudarte a desarrollar músculos más magros. Esta clase es para quienes han tomado al menos cuatro sesiones de Levanta Tu Peso I."
+  },
+  {
+    "url": "../../../assets/img/img7.jpg",
+    "titulo": "Curso de obstáculos en la ciudad II",
+    "semana": "Sáb.",
+    "semanaHora": "de 10 am a 11 am.",
+    "finSemana": "Dom.",
+    "finSemanaHora": "de 11 am a 12 pm.",
+    "contenido": "Esta es nuestra actividad favorita del fin de semana. Más que una clase, ¡nuestra pista de obstáculos para principiantes está diseñada para ser divertida! Es como volver al campamento de verano, pero sin el drama."
+  },
+  {
+    "url": "../../../assets/img/img8.jpg",
+    "titulo": "Entrenamiento de Fuerza Básico",
+    "semana": "-",
+    "semanaHora": "-",
+    "finSemana": "Dom.",
+    "finSemanaHora": "de 1 pm a 2 pm.",
+    "contenido": "¡Quema ese brunch del domingo o entrena para una carrera de obstáculos! Recomendamos esta clase para quienes completaron al menos dos cursos de nivel I dentro del último mes."
+  }
+
+]

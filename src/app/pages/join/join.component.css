@@ -1,0 +1,78 @@
+.join{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    color: var(--color2);
+    margin-bottom: 4rem;
+    line-height: 1.5;
+}
+
+.form{
+    margin-top: 10rem;
+    width: 60%;
+}
+
+.information{
+    width: 40%;
+    margin-top: 10rem;
+}
+
+/*Form*/
+
+.formDisainer{
+    width: 70%;
+}
+
+.name, .email, .fecha, .hora{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input{
+    padding: 1rem;
+}
+
+label{
+    margin: 1rem 0;
+}
+
+.fecha{
+    width: 2rem;
+}
+
+.hora .HMS{
+    display: flex;
+    flex-direction: row;
+}
+
+.hora input{
+    width: 10rem;
+}
+
+.button{
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background-color: var(--color2);
+    color: var(--color1);
+    cursor: pointer;
+}
+
+@media (max-width:  600px ) {
+    .join{
+        flex-direction: column;
+    }
+    .form{
+        
+        width: 90%;
+    }
+    .information{
+        width: 90%;
+    }
+
+    .hora .HMS{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
